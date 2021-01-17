@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Website</title>
+
+	<style>
+		body {
+			background: #f4f4f4;
+			color:#555;
+			font-family: 'Arial', Helvetica, sans-serif;
+			font-size: 16px;
+			line-height: 1.6em;
+			margin: 0;
+        }
+        .container {
+        	width: 80%;
+        	margin: auto;
+        	overflow: hidden;       	
+        }
+        #main-header {
+        	background: coral;
+        	color: #fff;
+        }
+        #navbar {
+        	background: #333;
+        	color: #fff;
+        }
+        #navbar ul {
+        	padding: 0;
+        	list-style: none;
+        }
+        #navbar ul li{
+        	display: inline;
+        }
+        #navbar ul li a{
+        	color: #fff;
+        	text-decoration: none;
+        	font-size: 18px;
+        	padding-right: 15px;
+        }
+        #showcase {
+        	background-image: url(image/index4.jpg);
+        	background-position: center right;
+        	height: 300px;
+        	margin-bottom: 30px;
+        	text-align: center;
+        }
+        #showcase h1{
+        	color: #fff;
+        	font-size: 50px;
+        	line-height: 1.6em;
+        }
+        #main {
+        	float: left;
+        	width: 70%;
+        	padding: 0 30px;
+        	box-sizing: border-box;
+        }
+        #sidebar {
+        	float: right;
+        	width: 30%;
+        	background: #333;
+        	color: #fff;
+        	padding: 10px;
+        	box-sizing: border-box;
+        }
+        #main-footer {
+        	background: #333;
+        	color: #fff;
+        	text-align: center;
+        	padding: 20px;
+        	margin-top: 40px;
+
+        }
+
+        @media screen(max-width: 600px) {
+        	#main {
+        		width: 100%;
+        		float: none;
+        	}
+        	#sidebar {
+        		width: 100%;
+        		float: none;
+        	}
+        }
+
+	</style>
+</head>
+<body>
+	<header id="main-header">
+		<div class="container">
+			<h1>My Website</h1>			
+		</div>
+	</header>
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="#">Home</a></li>				
+				<li><a href="#">About</a></li>				
+				<li><a href="#">Contact</a></li>												
+				<li><a href="#">Services</a></li>				
+			</ul>			
+		</div>
+	</nav>
+
+	<section id="showcase">
+		<div class="container">
+			<h1>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Cumque ab a accusamus vero quia nisi sequi.</h1>			
+		</div>
+	</section>
+
+	<div class="container">
+		<section id="main">
+			<h1>Welcome</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quod consectetur incidunt saepe ullam reiciendis. Culpa blanditiis nihil, eum soluta. Ea temporibus, tenetur nulla consectetur commodi dolores, aliquid eos praesentium nisi deleniti! Quas ipsam, eius. Nisi autem accusamus, necessitatibus rerum, cupiditate quos maiores, eum quo numquam nobis voluptatum molestiae assumenda.</p>
+		</section>
+		<aside id="sidebar">
+			<p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Assumenda facere tempora vel voluptate quidem veniam dolor nostrum amet laborum sapiente ex rerum nesciunt fuga expedita cupiditate laudantium aliquam, quae reiciendis maiores ratione veritatis sequi! Delectus!</p>
+		</aside>
+	</div>
+
+	<footer id="main-footer">
+		<p>Copyright &copy2021; My Website</p>
+	</footer>
+</body>
+</html>
