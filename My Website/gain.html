@@ -16,6 +16,7 @@
 			background-image: url(image/website.jpg);
 			background-repeat: no-repeat;
 			background-size: cover;
+			background-attachment: fixed;
 		}
 		.main-area {
 			text-align: center;
@@ -47,6 +48,22 @@
 			background: #555;
 
 		}
+		@media screen and (max-width: 780px) {
+
+			.main-area ul{
+				overflow: hidden;
+			}
+      		.main-area ul li {
+	          float: right;
+	          background-attachment: fixed;
+	          padding: 10px;
+	          font-size: 15px;
+	          width: 40%;
+	          margin-right: 100px;
+	      	}
+      
+		}
+
 
 	</style>
 </head>
