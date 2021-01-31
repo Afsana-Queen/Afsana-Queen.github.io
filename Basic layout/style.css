@@ -85,7 +85,7 @@ h2.top {
 }
 .main p{
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 17px;
   line-height: 27px;
 }
@@ -93,7 +93,6 @@ h2.top {
   float: right;
   width: 30%;
   margin-right: 200px;
-  box-sizing: border-box;
 }
 
 .right-side {
@@ -154,13 +153,11 @@ h2.top {
 
   }
   .main {
-    width: 80%;
-   #right-image {
-    width: 55%;
-  }
+    width: 100%;
+   }
   .side-content {
     flex-direction: column;
     height: 600px;
-    width: 80%;  
+    width: 100%;  
   }
 }
