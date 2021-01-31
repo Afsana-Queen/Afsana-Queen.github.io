@@ -84,7 +84,7 @@ h2.top {
 }
 .main p{
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 17px;
   line-height: 27px;
 }
@@ -153,7 +153,11 @@ h2.top {
   }
   .main {
     width: 100%;
+<<<<<<< HEAD
   }
+=======
+   }
+>>>>>>> 96dd412b17fe88378357f8c08aaa289278bcd82a
   .side-content {
     flex-direction: column;
     height: 600px;
