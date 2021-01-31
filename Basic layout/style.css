@@ -69,12 +69,12 @@ h2.top {
   display: flex;
   align-content: center;
   align-items: center;
-  min-height: 80vh;
+  min-height: 60vh;
   color: gray;
 }
 
 .main {
-  padding: 50px 30px;
+  padding: 35px;
   width: 100%;
 
 }
@@ -154,12 +154,13 @@ h2.top {
 
   }
   .main {
-    width: 100%;
-   
+    width: 80%;
+   #right-image {
+    width: 55%;
   }
   .side-content {
     flex-direction: column;
     height: 600px;
-    width: 90%;  
+    width: 80%;  
   }
 }
