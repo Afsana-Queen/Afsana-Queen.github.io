@@ -69,8 +69,9 @@ h2.top {
   display: flex;
   align-content: center;
   align-items: center;
-  min-height: 60vh;
+  min-height: 70vh;
   color: gray;
+  padding-left: 10px; 
 }
 
 .main {
@@ -91,7 +92,8 @@ h2.top {
 #right-image {
   float: right;
   width: 30%;
-  margin-right: 200px;
+  margin-right: 160px;
+  padding: 20px;
 }
 
 .right-side {
@@ -153,14 +155,10 @@ h2.top {
   }
   .main {
     width: 100%;
-<<<<<<< HEAD
-  }
-=======
-   }
->>>>>>> 96dd412b17fe88378357f8c08aaa289278bcd82a
+    }
   .side-content {
     flex-direction: column;
     height: 600px;
-    width: 100%;  
+    width: 80%;  
   }
 }
